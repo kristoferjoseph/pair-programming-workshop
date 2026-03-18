@@ -6,13 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 npm install          # install dependencies (first time only)
-npm test             # run tests in watch mode
-npm run test:run     # run tests once and exit
+npm test             # run tests once then exit
+npm run test:watch   # run tests in watch mode
 ```
 
 To run a single test file:
 ```bash
-npx vitest run fizzbuzz.test.js
+npm t
 ```
 
 ## Repository Structure
